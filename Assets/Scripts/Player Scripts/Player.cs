@@ -10,8 +10,7 @@ public class Player : MonoBehaviour
 
     public float jumpPower = 10f;
     public float movementSpeed = 40f;
-    public KeyCode left;
-    public KeyCode right;
+    public float autoMovementSpeed = 0f;
 
     private void Awake()
     {
@@ -25,12 +24,33 @@ public class Player : MonoBehaviour
         {
             rigidbody2d.velocity = Vector2.up * jumpPower;
         }
+
+        HandleMovement();
     }
 
     private bool IsGrounded() //Stops player from mid-air jumping, needs correct layers to work
     {
         RaycastHit2D raycastHit2d = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, .1f, detectPlatforms);
-        Debug.Log(raycastHit2d.collider);
+        //Debug.Log(raycastHit2d.collider);
         return raycastHit2d.collider != null;
+    }
+
+    private void HandleMovement()
+    {
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            rigidbody2d.velocity = new Vector2(-movementSpeed, rigidbody2d.velocity.y);
+        }
+        else
+        {
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                rigidbody2d.velocity = new Vector2(+movementSpeed, rigidbody2d.velocity.y);
+            }
+            else
+            {
+                rigidbody2d.velocity = new Vector2(autoMovementSpeed, rigidbody2d.velocity.y);
+            }
+        }
     }
 }
