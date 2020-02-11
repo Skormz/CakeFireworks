@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraScroll : MonoBehaviour
 {
-    public float autoScrollSpeed;
+    public float autoScrollSpeed = 0.1f;
     public float startTimer = 3f;
 
     private GameObject cameraPosition;
@@ -14,7 +14,7 @@ public class CameraScroll : MonoBehaviour
     
     void Awake()
     {
-        
+
     }
 
     void Update()
