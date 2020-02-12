@@ -62,12 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Cake.cs" />
     <Compile Include="Assets\Scripts\CameraScroll.cs" />
     <Compile Include="Assets\Scripts\CursorLock.cs" />
     <Compile Include="Assets\Scripts\Damager.cs" />
     <Compile Include="Assets\Scripts\DiffChanger.cs" />
     <Compile Include="Assets\Scripts\DifficultySetter.cs" />
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Loader.cs" />
     <Compile Include="Assets\Scripts\MenuReturn.cs" />
     <Compile Include="Assets\Scripts\Mute.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerPoints.cs" />
     <Compile Include="Assets\Scripts\Toggler.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Beau/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
