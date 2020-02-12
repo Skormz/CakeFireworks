@@ -79,7 +79,9 @@ public class Player : MonoBehaviour
             else if(canRun == true)
             {
                 rigidbody2d.velocity = new Vector2(autoMovementSpeed, rigidbody2d.velocity.y);
-                animator.SetFloat("Speed", Mathf.Abs(movementSpeed));
+                animator.SetFloat("Speed", 1f);
+                if (!facingRight)
+                    Flip();
             }
         }
     }
