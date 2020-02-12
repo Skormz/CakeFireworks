@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 522}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 0
     width: 342
     height: 957
-  m_MinSize: {x: 234, y: 494}
-  m_MaxSize: {x: 10004, y: 14044}
+  m_MinSize: {x: 234, y: 472}
+  m_MaxSize: {x: 10004, y: 14022}
   vertical: 1
-  controlID: 158
+  controlID: 66
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 1643
     height: 957
-  m_MinSize: {x: 336, y: 494}
-  m_MaxSize: {x: 14006, y: 14044}
+  m_MinSize: {x: 336, y: 472}
+  m_MaxSize: {x: 14006, y: 14022}
   vertical: 0
-  controlID: 157
+  controlID: 65
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1007
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 522}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -214,10 +214,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 613, y: 494}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 613, y: 472}
+  m_MaxSize: {x: 18008, y: 14022}
   vertical: 0
-  controlID: 117
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,9 +310,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0650005, y: -0.082668684, z: -1.3385862}
+    m_Target: {x: 40.793003, y: 1.0775989, z: -41.15625}
     speed: 2
-    m_Value: {x: 1.0650005, y: -0.082668684, z: -1.3385862}
+    m_Value: {x: 19.370094, y: 2.7626586, z: -3.3378212}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -345,9 +345,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.035009
+    m_Target: 52.074722
     speed: 2
-    m_Value: 9.035009
+    m_Value: 55.445316
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -566,7 +566,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -653,9 +653,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6e3e0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0cefffffa4f3ffffbc3d0000
+      m_SelectedIDs: a0340000
+      m_LastClickedID: 13472
+      m_ExpandedIDs: 6efbffff403400002c3500006a360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -671,7 +671,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/LevelPrefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -731,7 +731,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ce300000
     m_LastClickedID: 12494
-    m_ExpandedIDs: 00000000ce300000563100007e310000d4310000be320000d8320000fa340000303500005e3700006037000000ca9a3b
+    m_ExpandedIDs: 00000000d42d0000622e00009c2e00003e300000b83100004e32000096320000dc320000b6370000b8370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,21 +756,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 170}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ce300000563100007e310000d83200002e340000b6340000fa3400002e3500005e37000060370000
+    m_ExpandedIDs: ffffffff00000000d42d0000622e00009c2e0000a82f000086310000b6370000b8370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: firework
-      m_OriginalName: firework
+      m_Name: fireworkPatternMidHigh
+      m_OriginalName: fireworkPatternMidHigh
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15982
+      m_UserData: 41622
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0

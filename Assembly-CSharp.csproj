@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\DifficultySetter.cs" />
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\firework.cs" />
+    <Compile Include="Assets\Scripts\FireworkSpawner.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Loader.cs" />
     <Compile Include="Assets\Scripts\MenuReturn.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerPoints.cs" />
+    <Compile Include="Assets\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\Toggler.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/Projects/CakeFireworks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

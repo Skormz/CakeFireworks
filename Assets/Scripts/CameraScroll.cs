@@ -17,7 +17,7 @@ public class CameraScroll : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         startTimer = startTimer -= Time.deltaTime;
 
@@ -28,7 +28,7 @@ public class CameraScroll : MonoBehaviour
 
         if (gameStart == true)
         {
-            transform.Translate(autoScrollSpeed, 0f, 0f);
+            transform.Translate(Vector2.right * autoScrollSpeed * Time.deltaTime);
         }
         
     }
