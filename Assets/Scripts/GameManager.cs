@@ -6,21 +6,39 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public int score;
+    public GameObject[] fireworks;
+    public Vector2 fireworkSpawnValues;
+    public int fireworkCount;
+    public float spawnWait;
+    public float startWait;
+    public float waveWait;
 
-    // Start is called before the first frame update
     void Start()
     {
         score = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        StartCoroutine (SpawnFireworks());
     }
 
     void AddPoints(int amount)
     {
         score += amount;
     }
+
+    IEnumerator SpawnFireworks()
+    {
+        yield return new WaitForSeconds(startWait);
+        while (true)
+        {
+            for (int i = 0; i < fireworkCount; i++)
+            {
+                GameObject firework = fireworks[Random.Range(0, fireworks.Length)];
+                Vector2 spawnPosition = new Vector2(Random.Range(-fireworkSpawnValues.x, fireworkSpawnValues.x), fireworkSpawnValues.y);
+                Quaternion spawnRotation = Quaternion.identity;
+                Instantiate (firework, spawnPosition, spawnRotation);
+                yield return new WaitForSeconds(waveWait);
+            }
+            yield return new WaitForSeconds(waveWait);
+        }
+    }
+
 }
