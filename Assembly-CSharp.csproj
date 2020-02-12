@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{49161589-B0C2-6433-45BC-96A14A5759DB}</ProjectGuid>
+    <ProjectGuid>{043CF4EE-99F1-AC21-0C2A-8E3A80EBA93A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,43 +77,43 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Toggler.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/Users/Eric/Downloads/CakeFireworks-master 2/CakeFireworks-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/Users/Eric/Documents/GitHub/CakeFireworks/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Program Files (x86)/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
