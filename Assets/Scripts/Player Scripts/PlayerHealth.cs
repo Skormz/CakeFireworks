@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 3;
+    
 
     public void TakeDamage(int damage)
     {
@@ -13,8 +14,12 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            //gameover
-            Debug.Log("Gameover");
+            GameOver();
         }
-    }   
+    } 
+    
+    void GameOver()
+    {
+
+    }
 }
