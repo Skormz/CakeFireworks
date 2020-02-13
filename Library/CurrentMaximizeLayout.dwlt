@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 681, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 85092
+  controlID: 88607
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 85046
+  controlID: 88608
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 85024
+  controlID: 88609
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b030fcff0242fcffbcc9fdffd2cffdff0cdcfdffc4dcfdffecddfdffdee2fdffbce9fdff1455feff065afeff4c5ffeff9264feff8e8efefff48efeffbca8feff16aafeff8caefeff62e4feffb8f5feffe0f6feffbcfcfeff1e1affffee1dffff3427ffff7837ffff904effff5c86ffffc491ffff3096ffff6c98ffffd2a4ffff12c1ffff36c7ffff42c7ffffdecaffff02d1ffffb8d8ffff5edeffff14e7ffff60eaffff84f1ffffc4430000ea430000d44d00009650000078660000126800008e700000a8700000da710000b6df0000e4f00000bef100008e460100b44601009a49010046b0010056b30100e65002000a540200fce0020010e102007ee20200f0e202003ee40200900d0300f40d0300bc11030094130300044f04007a4f0400b24f040064510400165505000656050076570500aeb40600deb5060084b606009cb80600d2b8060018b906003ef706006cf70600
+      m_ExpandedIDs: b2e0fbff92ab0700
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 60.019573, y: 7.5820575, z: -497.5311}
+    m_Target: {x: 26.847927, y: 1.7150449, z: -1.21875}
     speed: 2
-    m_Value: {x: 60.019573, y: 7.5820575, z: -497.5311}
+    m_Value: {x: 26.847927, y: 1.7150449, z: -1.21875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -336,9 +336,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 77.95554
+    m_Target: 34.16533
     speed: 2
-    m_Value: 77.95554
+    m_Value: 34.16533
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -456,20 +456,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/LevelPrefabs/Obstacles
+    - Assets/LevelPrefabs/Hazards/FireworkPatterns
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/LevelPrefabs/Obstacles
+  - Assets/LevelPrefabs/Hazards/FireworkPatterns
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Users\Eric\Documents\GitHub\CakeFireworks
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a340000
-    m_LastClickedID: 13370
-    m_ExpandedIDs: 000000002e320000b6320000e0320000ba33000032340000643400006c35000094350000163c0000183c0000
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: a0330000
+    m_LastClickedID: 13216
+    m_ExpandedIDs: 000000002e320000b6320000e0320000ba33000032340000643400006c35000066360000163c0000183c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,8 +522,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a2f30600
-    m_LastClickedInstanceID: 455586
+    m_SelectedInstanceIDs: 90ab0700
+    m_LastClickedInstanceID: 502672
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000663d0000783000000c810000d8930000
     m_RenameOverlay:
@@ -598,8 +598,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 947
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -641,5 +641,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 455586
+  m_LastInspectedObjectInstanceID: 502672
   m_LastVerticalScrollValue: 0

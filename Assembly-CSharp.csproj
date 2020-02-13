@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\PlayerBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerPoints.cs" />
+    <Compile Include="Assets\Scripts\Quitter.cs" />
     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
     <Compile Include="Assets\Scripts\Toggler.cs" />
     <Compile Include="Assets\Scripts\WinScreen.cs" />
