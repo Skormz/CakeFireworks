@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\MenuReturn.cs" />
     <Compile Include="Assets\Scripts\Mute.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuUI.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
