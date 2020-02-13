@@ -6,6 +6,7 @@ public class firework : MonoBehaviour
 {
     public float speed = 0.1f;
     public int damage = 1;
+    public GameObject explosionPrefab;
 
     void Update()
     {
@@ -17,6 +18,7 @@ public class firework : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.gameObject.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
+            Instantiate(explosionPrefab, transform.position, transform.rotation);
             Destroy(gameObject);
         }
         else
