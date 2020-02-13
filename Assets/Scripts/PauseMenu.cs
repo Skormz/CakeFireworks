@@ -17,7 +17,7 @@ public class PauseMenu : MonoBehaviour
             {
                 PauseGame();
             }
-            if (pausePanel.activeInHierarchy == true)
+            else if (pausePanel.activeInHierarchy == true)
             {
                 ContinueGame();
             }

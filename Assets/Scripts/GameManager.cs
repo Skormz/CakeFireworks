@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public int score;
+    public Text ScoreText;
    // public GameObject[] fireworks;
    // public GameObject spawnPoint;
    // public Vector2 fireworkSpawnValues;
@@ -16,8 +17,15 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1.0f;
         score = 0;
-       // StartCoroutine (SpawnFireworks());
+
+        // StartCoroutine (SpawnFireworks());
+    }
+
+    private void Update()
+    {
+        ScoreText.text = "Score: " + score.ToString();
     }
 
     void AddPoints(int amount)
